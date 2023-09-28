@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;    
+
+}
+body{
+    
+font-family: 'Poppins', sans-serif;
+}
+
+
+h1, h2, h3.h4.h5.h6, p{
+        margin: 0;
+        padding: 0;
+
+}
+.banner{
+    background-image:url(../images/bg3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    padding: 150px;
+}
+.heading{
+
+color: mediumorchid;
+
+font-size: 25px;
+
+text-align: center;
+
+text-transform: capitalize;
+
+margin-bottom: 50px;
+}
+.contact_form{
+
+width: 70%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+}
+.contact_info{
+
+width: 48%;
+}
+.contact_info_heading{
+
+color: darkmagenta;
+
+font-size: 21px;
+
+margin-bottom: 30px;
+}
+.contact_info h3{
+
+font-size: 30px;
+}
+.info_box{
+
+display: flex;
+
+margin-bottom: 10px;
+}
+.icon{
+
+width: 50px;
+
+color: blueviolet;
+
+font-size: 30px;
+}
+.info{color: rebeccapurple;}
+.info h4{
+
+font-size: 20px;
+}
+.info p{
+
+}
+.main_form{
+
+width: 48%;
+}
+.form{
+    background: honeydew;
+    padding: 10px;
+    border-radius: 20px;
+}
+.form h2{
+    text-transform: capitalize;color: darkviolet;font-size: 25px;margin-bottom: 30px;
+}
+
+.form form input{
+
+width: 100%;
+
+margin-bottom: 15px;
+
+padding: 8px 2px;
+
+border: 1px solid #dedede;
+
+border-radius: 10px;
+}
+
+.form form input[type="submit"]{
+
+width: auto;
+
+background: blueviolet;
+
+color: azure;
+
+font-size: 16px;
+
+padding:  15px 25px;
+
+text-decoration: solid;
+
+border-radius: 7px;
+}
+
+
+.form form textarea{
+
+width: 100%;
+
+margin-bottom: 15px;
+border-radius: 4px;
+
+padding: 15px 0 15px 10px;
+
+border: 1px solid#dedede;
+}
+
+.form form textarea, .form form input{
+    font-family: 'Poppins', sans-serif;
+}
+
+.form form input:focus, .form form textarea:focus{
+    outline: none;
+
+}
+
+
